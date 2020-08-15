@@ -1,41 +1,19 @@
+## Professional Self-Assessment
+I began the Computer Science program in January 2018 and participated until my graduation in August 2020. I came to SNHU with a BS in Accounting, Business and a minor in Business Analysis. When I began the program, I was an IT Business Analyst profressionally, which was not hands-on enough for me, but taught me many valuable skills that I have taken into my development roles. The company I worked for saw my potential and moved me into a Junior Developer role that was very SQL-centric. I have since taken a role at Norwich University Applied Research Institute (NUARI) as a Junior Web Developer working on the DECIDE platform where I’m working with AngularJS and Java Spring, but I still get to work in SQL quite often.
+	
+While at SNHU, I’ve learned a ton of valuable concepts that I’m lucky enough to have had the opportunity to bring straight into work and try out in the real world, an opportunity I know many do not have. Object oriented programming has to top the list since that’s key to web development. When I took Object Oriented Analysis/Design, we learned how to document all the pieces we need to make development run smoothly and to communicate our understanding of the requirements to the stakeholders. Relational modeling and databases helped me get my foot in the door to development when I was a Business Analyst after taking Introduction to SQL at SNHU and learning more about how tables in databases should be related to one another, star and snowflake schema, as well as CRUD and other querying operations. Another favorite topic and class I took at SNHU is Machine Learning, which has helped me understand how data is being used and has expanded the way I think about what is possible. Machine learning also helped me think critically about ethics and security and how to protect the privacy of the users data we have access to.
+
+This portfolio is just a small sample of what I've learned at SNHU in the past 18 months. It shows my ability to implement some major changes to an application quickly (each enhancement was done in one weeks time) and efficiently. When I entered the Computer Science program, I thought it would just be a stepping stone to another career after accounting, but I've found many exciting challenges in full-stack web development, where I still get to flex my business analysis skills to refine requirements and host meetings with stakeholders sometimes.
+
+## Artifact
+Below, please find a repository for a console game called Left Center Right (LCR).
+
+The software engineering/design portion of this project was creating a leaderboard for quickest time to beat the game. The leaderboard displays (optionally) at the beginning and (not optionally) at the end of each game. It includes player name, date and elapsed time from beginning to end of the game that was won. This demonstrates by ability to implement a new front-end feature appropriately as well as an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database).
+
+For the algorithms and data structures portion of this project, I added a feature to track the time elapsed from the beginning of the game to the end and reported this to the console. I also added algorithms to calculate the number of spaces between names and times on the leaderboard to keep it a static width so it looks nice when displayed to the user. This demonstrates my ability to find the best solution for an enhancement given multiple options and design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms).
+
+For the databases portion of this project, I implemented a mySQL database for the leaderboard for the game. I connected MySQL using the MySQL c++ connector and created a leaderboard table to store player name, date, and elapsed game time. The game inserts every game winner into the database, but a later enhancement would be to query to database first and only insert the new row if it were to be displayed on the leaderboard. With a new feature, the leaderboard could go from top 5 to top 10 and I wanted to ensure I had the data I needed to create the leaderboard I wanted to display but eventually space could become an issue. This will demonstrates my ability to implement a simple database, insert to it and query from it in the context of an application demonstrates my ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) and my ability to develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources because only the application will have the ability to write to the database. Players in the game will not have this direct ability. 
+
 [LCR (Left Center Right) Bitbucket repo](https://bitbucket.org/Rachhh53/lcr/src/master/LCR/)
 
 [Pre-enhancements code review hosted by Rachel!](https://drive.google.com/file/d/1AC8UcFzf46dbi07mlEA2SqBYteviMotD/view?usp=sharing)
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Rachhh53/rachhh53.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rachhh53/rachhh53.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
