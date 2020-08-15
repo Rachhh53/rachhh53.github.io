@@ -1,4 +1,4 @@
-LCR (Left Center Right) Bitbucket repo: https://bitbucket.org/Rachhh53/lcr/src/master/LCR/
+[LCR (Left Center Right) Bitbucket repo](https://bitbucket.org/Rachhh53/lcr/src/master/LCR/)
 
 ## Welcome to GitHub Pages
 
